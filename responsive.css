@@ -1,0 +1,47 @@
+@media (max-width: 700px){
+  .resume{
+    height: 200vh;
+  }
+}
+
+@media (max-width: 650px) {
+  header .menuicon {
+    display: block;
+  }
+
+  header .links {
+    display: none;
+    background-color: #5b6474;
+  }
+
+  header .links a {
+    display: block;
+    background-color: #5b6474;
+  }
+
+  header .menuicon:hover ~ .links  {
+    display: block;
+  }
+
+  header .links:hover {
+    display: block;
+
+  }
+
+  /* .aboutme .content h1{
+
+    font-size: 2em;
+  }
+  .portfolio h2 {
+    font-size: 2em;
+  }
+
+  .portfolio h3 {
+    font-size: 1.5em;
+  }
+
+  .contact .content .mail{
+    font-size:1.2em;
+  } */
+
+}

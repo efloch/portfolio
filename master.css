@@ -1,0 +1,47 @@
+body, p, h1, h2, h3, h4{
+  margin : 0;
+  padding : 0;
+  font-family: 'Montserrat';
+  font-size: 16px;
+}
+
+.logo {
+  display: block;
+  width : 100px;
+  height: 100px;
+  border-radius: 50px;
+  background-color: white;
+  /* background-color: #84bcba; */
+  text-align: center;
+  line-height: 100px;
+  color: #499693;
+  font-size: 5.2em;
+  font-family: 'Arvo'
+}
+
+.logo::after{
+  content :"E";
+}
+
+.logo.small{
+  transform: scale(.6);
+}
+
+a {
+  text-decoration: none;
+}
+
+
+h1{
+  font-size: 7em;
+  transform: translateZ(10px);
+  z-index: 10px;
+
+}
+
+h2{
+  font-size: 3em;
+  transform: translateZ(10px);
+  z-index: 10px;
+  padding: 30px;
+}

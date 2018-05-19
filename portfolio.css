@@ -1,0 +1,62 @@
+.portfolio {
+  height: 80vh;
+  background-color: white;
+}
+
+.portfolio .content{
+  top:80%;
+  /* transform: translateY(-50%); */
+  width: 100%;
+  text-align: center;
+  color: black;
+}
+
+.portfolio h2 {
+  margin-top: 80px;
+}
+
+.portfolio .gallery {
+  display: flex;
+  flex-direction: row;
+}
+.portfolio .gallery a {
+  display: inline-block;
+  width: 33.3vw;
+  height: 33.3vW;
+  background-color: black;
+
+}
+
+.portfolio .gallery a:after {
+  content :"";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0);
+  transition: all .5s;
+}
+
+.portfolio .gallery a:hover:after{
+  background-color: rgba(0,0,0,0.5);
+}
+
+.portfolio .data{
+  background-image: url(../images/data.jpg);
+  background-size:cover;
+  border-style: solid;
+  border-color: white;
+}
+
+.portfolio .python{
+  background-image: url(../images/python.jpg);
+  background-size:cover;
+  border-style: solid;
+  border-color: white;
+}
+
+.portfolio .business{
+  background-image: url(../images/business.jpg);
+  background-size:cover;
+  border-style: solid;
+  border-color: white;
+}
